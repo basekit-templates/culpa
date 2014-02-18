@@ -1,0 +1,146 @@
+{
+    "name":"CULPA",
+    "thumbnail":"ipsum.png",
+    "screenshot":"ipsum.png",
+    "tags": {
+    "en": ["clean", "menu", "cafe", "bar", "restaurant"],
+    "es": ["limpio", "menú", "cafetería", "bar", "restaurante"],
+    "br": ["limpo", "menu", "cafeteria", "bar", "restaurante"]
+    },
+    "colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#192226",
+            "color2":"#ffffff",
+            "color3":"#31898b",
+            "color4":"#38825f",
+            "color5":"#000000",
+            "color6":"#ffffff",
+            "color7":"#ffffff"
+        },
+        "Swatch 2": {
+            "color1":"#251f21",
+            "color2":"#fbfbf6",
+            "color3":"#db1f1f",
+            "color4":"#3a2a2a",
+            "color5":"#6b5a5a",
+            "color6":"#ffffff",
+            "color7":"#251f21"
+        },
+        "Swatch 3": {
+            "color1":"#251f21",
+            "color2":"#ffffff",
+            "color3":"#314f8b",
+            "color4":"#1e3563",
+            "color5":"#2f3343",
+            "color6":"#ffffff",
+            "color7":"#251f21"
+        },
+        "Swatch 4": {
+            "color1":"#251f21",
+            "color2":"#ffffff",
+            "color3":"#ac3c0a",
+            "color4":"#2c3034",
+            "color5":"#2c3034",
+            "color6":"#ffffff",
+            "color7":"#251f21"
+        },
+        "Swatch 5": {
+            "color1":"#251f21",
+            "color2":"#ffffff",
+            "color3":"#720c42",
+            "color4":"#431f32",
+            "color5":"#291515",
+            "color6":"#ffffff",
+            "color7":"#251f21"
+        }
+    },
+    "fontSwatch": {
+       "title": "Oswald",
+        "font1": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "30px",
+            "font-weight": "400",
+            "line-height": "40px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "30px",
+            "font-weight": "inherit",
+            "line-height": "40px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "darken(@color-swatch4,10%)",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "24px",
+            "color": "@color-swatch6",
+            "color-hover": "@color-swatch6",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch1",
+            "background-color-hover": "@color-swatch1"
+        },
+        "font7": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "24px",
+            "color": "@color-swatch6",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "darken(@color-swatch3,5%)"
+        },
+        "font8": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "18px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "18px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "30px",
+            "font-weight": "400",
+            "line-height": "40px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        }
+    }
+}
