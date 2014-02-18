@@ -14,6 +14,9 @@ body {
         width: 1024px;
         margin: 0 auto;
     }
+    @media only screen and (max-width: 850px) {
+        float: left;
+    }
 }
 
 .bg-cover {
@@ -311,7 +314,9 @@ body {
         margin: 0 5%;
         border-top: 1px solid fade(@color-swatch4,20%);
         border-bottom: 1px solid fade(@color-swatch4,20%);
-        @media @tablet {
+        @media only screen and (max-width: 850px) {
+            width:100%;
+            margin: 0 auto;
             margin-top: 1.5em;
         }
         @media only screen and (max-width: 550px) {
@@ -409,13 +414,13 @@ body {
             &.selected {
                 display: block;
                 width: 90%;
-                margin: 0.2em 5%;
+                margin: 0 5%;
                 float: left;
-            }
-            @media only screen and (max-width: 850px) {
-                width: 100%;
-                margin: 0;
-                padding: 10px 0;
+                @media only screen and (max-width: 850px) {
+                    width: 100%;
+                    margin: 0;
+                    padding: 10px 0;
+                }
             }
 
                 ol, li { /* removes list-style on sections and items */
