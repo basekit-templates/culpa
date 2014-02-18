@@ -73,7 +73,7 @@ body {
         width: 90%;
         margin: 0 5%;
         @media only screen and (min-width: 1140px) {
-            width: 1060px;
+            width: 1024px;
             margin: 0 auto;
         }
         min-height: 40px;
@@ -259,6 +259,7 @@ body {
 .bk-header {
     background-color: transparent;
     padding: 3.5em 0 0;
+    margin-bottom: 2.5em;
     text-align: center;
     .wrapper {
         position: relative;
@@ -279,7 +280,6 @@ body {
                 line-height: @font-swatch10-line-height;
                 letter-spacing: @font-swatch10-letter-spacing;
                 font-size: @font-swatch10-font-size;
-                margin-bottom: 1.2em;
                     &:hover {
                         text-decoration: none;
                     }
@@ -654,6 +654,9 @@ body {
   blockquote {
     background-color: transparent;
     margin: 20px;
+    @media @mobile {
+        margin: 0 5px;
+    }
     &:before {
         color: @color-swatch3;
     }
