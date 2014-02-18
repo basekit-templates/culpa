@@ -108,6 +108,7 @@ body {
                     width: 100%;
                     padding: 1em 0;
                     border-bottom: 1px dotted @color-swatch2;
+                    background-color: fade(@color-swatch5, 30%);
                 }
                 &:last-child {
                     @media @tablet {
@@ -263,6 +264,10 @@ body {
     padding: 3.5em 0 0;
     margin-bottom: 2.5em;
     text-align: center;
+    @media @tablet {
+        padding: 2.5em 0 0;
+        margin-bottom: 1em;
+    }
     .wrapper {
         position: relative;
         .companyheader {
