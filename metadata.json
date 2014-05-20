@@ -2,6 +2,7 @@
     "name":"Culpa",
     "thumbnail":"culpa.png",
     "screenshot":"culpa.png",
+    "templateType":"menu",
     "tags": {
     "en": ["clean", "menu", "cafe", "bar", "restaurant","clean", "sharp", "background image", "modern", "professional", "light", "san-serif"],
     "es": ["limpio", "menú", "cafetería", "bar", "restaurante"],
